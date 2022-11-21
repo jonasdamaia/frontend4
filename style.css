@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body{
+    background-color: #F3EAE3;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.imagem-desktop{
+    width: 270px;
+    position: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.imagem-mobile{
+    width: 270px;
+    position: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.caixa-branca{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.tipo-produto{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.titulo{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+.texto{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.precos{
+    display: inline-block;
+}
+
+.preco-novo{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-left: 30px;
+    font-size: 30px;
+    float: inline-start;
+}
+
+.preco-velho{
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    float: inline-end;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+
+.botao{
+    border-radius: 5px;
+    border-color: hsl(158, 36%, 37%);
+    width: 220px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.carrinho{
+    margin-top: 1px;
+}
+
+.botao:hover{
+    border-radius: 5px;
+    border-color: #1A4031;
+    width: 220px;
+    margin-left: 30px;
+    height: 40px;
+    background-color: #1A4031;
+    color: hsl(0, 0%, 100%);
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+    /*max-device width*/
+    @media screen and (max-device-width: 375px) {
+        body{
+            background-color: #F3EAE3;
+        }
+        
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .imagem-desktop{
+            width: 333px;
+            border-radius: 10px 10px 0px 0px;
+            bottom: 0px;
+        }
+        
+        .imagem-mobile{
+            width: 210px;
+            border-radius: 10px 10px 0px 0px;
+            position: relative;
+            margin-left: 15px;
+        }
+        
+        .caixa-branca{
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+            margin-right: 11px;
+            position: relative;
+            margin-left: 15px;
+            bottom: 3px;
+        }
+        
+        .tipo-produto{
+            color: hsl(228, 12%, 48%);
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        
+        .titulo{
+            font-family: 'Fraunces', serif;
+            color: hsl(212, 21%, 14%);
+            font-size: 25px;
+            margin-left: 30px;
+            margin-top: 1px;
+        }
+        
+        .texto{
+            color: hsl(228, 12%, 48%);
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 30px;
+            margin-top: -15px;
+        }
+        
+        .precos{
+            display: inline-block;
+            margin-top: -14px;
+        }
+        
+        .preco-novo{
+            color: hsl(158, 36%, 37%);
+            font-family: 'Fraunces', serif;
+            font-size: 30px;
+            margin-top: -18px;
+        }
+        
+        .preco-velho{
+            color: hsl(228, 12%, 48%);
+            font-size: 13px;
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+        
+        .botao{
+            border-radius: 5px;
+            border-color: hsl(158, 36%, 37%);
+            width: 277px;
+            margin-left: 30px;
+            height: 40px;
+            background-color: hsl(158, 36%, 37%);
+            color: hsl(0, 0%, 100%);
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        
+        .carrinho{
+            margin-top: 1px;
+        }        
+    }
