@@ -105,7 +105,7 @@ body{
 }
 
     /*max-device width*/
-    @media screen and (max-device-width: 375px) {
+    @media screen and (max-device-width: 500px) {
         body{
             background-color: #F3EAE3;
         }
